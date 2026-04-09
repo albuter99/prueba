@@ -4,7 +4,7 @@ import pandas as pd
 
 
 INPUT_PATH = Path("artifacts/processed/weather_initial.csv")
-OUTPUT_PATH = Path("artifacts/processed/weather_clean.csv")
+OUTPUT_PATH = Path("artifacts/cleaned/weather_clean.csv")
 
 
 def preprocess_weather_data(df: pd.DataFrame) -> pd.DataFrame:
