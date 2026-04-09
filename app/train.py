@@ -11,7 +11,8 @@ from sklearn.model_selection import train_test_split
 
 INPUT_PATH = Path("artifacts/features/weather_features.csv")
 MODEL_PATH = Path("artifacts/model.pkl")
-METRICS_PATH = Path("artifacts/metrics.json")
+METRICS_PATH = Path("artifacts/metrics/metrics.json")
+METRICS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 
 def train_and_evaluate():
