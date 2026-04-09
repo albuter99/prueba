@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import joblib
@@ -6,10 +7,13 @@ import pandas as pd
 
 INPUT_PATH = Path("artifacts/features/weather_features.csv")
 MODEL_PATH = Path("artifacts/model.pkl")
-OUTPUT_DIR = Path("artifacts/predictions")
-OUTPUT_PATH = OUTPUT_DIR / "predictions.csv"
 
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+PREDICTIONS_DIR = Path("artifacts/predictions")
+PREDICTIONS_DIR.mkdir(parents=True, exist_ok=True)
+
+OUTPUT_CSV = PREDICTIONS_DIR / "predictions.csv"
+OUTPUT_JSON = Path("docs/predictions.json")
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 
 
 def run_prediction():
@@ -28,9 +32,11 @@ def run_prediction():
     results = df[["date", "location", "target_energy_next_hour"]].copy()
     results["predicted_energy_next_hour"] = predictions
 
-    results.to_csv(OUTPUT_PATH, index=False)
+    results.to_csv(OUTPUT_CSV, index=False)
+    results.to_json(OUTPUT_JSON, orient="records", indent=2)
 
-    print(f"Predictions saved to: {OUTPUT_PATH}")
+    print(f"Predictions saved to: {OUTPUT_CSV}")
+    print(f"Frontend JSON saved to: {OUTPUT_JSON}")
     print(results.tail())
 
 
