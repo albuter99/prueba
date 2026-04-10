@@ -6,83 +6,224 @@
   <title>Wind Energy Forecast Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
+      margin: 0;
+      padding: 32px;
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f7f9fc;
+      background: #f4f7fb;
       color: #1f2937;
     }
 
     h1 {
-      margin-bottom: 10px;
+      margin: 0 0 8px 0;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      margin-bottom: 28px;
+      color: #4b5563;
+    }
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
     }
 
     .card {
       background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
     }
 
-    .prediction-value {
-      font-size: 2rem;
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.2rem;
+    }
+
+    .main-value {
+      font-size: 3rem;
       font-weight: bold;
       color: #2563eb;
+      margin-bottom: 8px;
+    }
+
+    .small-label {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    .summary-text,
+    .recommendation-text {
+      line-height: 1.6;
+      color: #374151;
+    }
+
+    .recommendation-box {
+      margin-top: 16px;
+      padding: 14px;
+      border-radius: 12px;
+      background: #eef4ff;
+      border-left: 5px solid #2563eb;
+    }
+
+    .filter-buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .filter-buttons button {
+      border: none;
+      background: #e5e7eb;
+      color: #111827;
+      padding: 10px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .filter-buttons button.active {
+      background: #2563eb;
+      color: white;
     }
 
     canvas {
-      max-width: 100%;
+      width: 100% !important;
+      height: 360px !important;
+    }
+
+    @media (max-width: 1000px) {
+      .top-grid,
+      .bottom-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
   <h1>Wind Energy Forecast Dashboard</h1>
-  <p>End-to-end MLOps pipeline for Aalborg wind energy prediction.</p>
+  <p class="subtitle">Aalborg theoretical wind energy monitoring and prediction dashboard</p>
 
-  <div class="card">
-    <h2>Latest Prediction</h2>
-    <p id="prediction-date">Loading date...</p>
-    <p class="prediction-value" id="prediction-value">Loading prediction...</p>
+  <div class="top-grid">
+    <div class="card">
+      <h2>Next-hour Theoretical Energy</h2>
+      <div class="main-value" id="latestPrediction">Loading...</div>
+      <div class="small-label" id="latestDate">Loading date...</div>
+      <div class="small-label" id="latestTarget">Loading target...</div>
+    </div>
+
+    <div class="card">
+      <h2>Weather Summary & Recommendation</h2>
+      <p class="summary-text" id="weatherSummary">Loading weather summary...</p>
+      <div class="recommendation-box">
+        <strong>Recommendation:</strong>
+        <p class="recommendation-text" id="recommendationText">Loading recommendation...</p>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>Prediction History</h2>
-    <canvas id="predictionChart"></canvas>
+  <div class="bottom-grid">
+    <div class="card">
+      <h2>Historical Performance</h2>
+      <div class="filter-buttons">
+        <button id="btn1d" class="active">1D</button>
+        <button id="btn7d">7D</button>
+        <button id="btn30d">30D</button>
+      </div>
+      <canvas id="historicalChart"></canvas>
+    </div>
+
+    <div class="card">
+      <h2>Latest Forecast Window</h2>
+      <canvas id="forecastChart"></canvas>
+    </div>
   </div>
 
   <script>
-    async function loadPredictions() {
-      const response = await fetch("predictions.json");
-      const data = await response.json();
+    let dashboardData = null;
+    let historicalChartInstance = null;
+    let forecastChartInstance = null;
 
-      if (!data.length) {
-        document.getElementById("prediction-date").innerText = "No predictions available";
-        document.getElementById("prediction-value").innerText = "-";
-        return;
+    async function loadDashboardData() {
+      const response = await fetch("dashboard_data.json");
+      dashboardData = await response.json();
+
+      renderTopCards();
+      renderHistoricalChart(24);
+      renderForecastChart();
+      activateButtons();
+    }
+
+    function renderTopCards() {
+      document.getElementById("latestPrediction").textContent =
+        dashboardData.latest_prediction.toFixed(4);
+
+      document.getElementById("latestDate").textContent =
+        `Date: ${dashboardData.latest_date}`;
+
+      document.getElementById("latestTarget").textContent =
+        `Latest target: ${dashboardData.latest_target.toFixed(4)}`;
+
+      document.getElementById("weatherSummary").textContent =
+        dashboardData.weather_summary;
+
+      document.getElementById("recommendationText").textContent =
+        dashboardData.recommendation;
+    }
+
+    function renderHistoricalChart(hours) {
+      const historical = dashboardData.historical.slice(-hours);
+
+      const labels = historical.map(row => row.date);
+      const predicted = historical.map(row => row.predicted_energy_next_hour);
+      const target = historical.map(row => row.target_energy_next_hour);
+
+      const ctx = document.getElementById("historicalChart").getContext("2d");
+
+      if (historicalChartInstance) {
+        historicalChartInstance.destroy();
       }
 
-      const latest = data[data.length - 1];
-      document.getElementById("prediction-date").innerText = `Date: ${latest.date}`;
-      document.getElementById("prediction-value").innerText = latest.predicted_energy_next_hour.toFixed(4);
-
-      const labels = data.map(row => row.date);
-      const values = data.map(row => row.predicted_energy_next_hour);
-
-      const ctx = document.getElementById("predictionChart").getContext("2d");
-      new Chart(ctx, {
+      historicalChartInstance = new Chart(ctx, {
         type: "line",
         data: {
           labels: labels,
-          datasets: [{
-            label: "Predicted Energy Next Hour",
-            data: values,
-            borderWidth: 2,
-            fill: false
-          }]
+          datasets: [
+            {
+              label: "Predicted theoretical energy",
+              data: predicted,
+              borderWidth: 2,
+              tension: 0.25
+            },
+            {
+              label: "Target theoretical energy",
+              data: target,
+              borderWidth: 2,
+              tension: 0.25
+            }
+          ]
         },
         options: {
           responsive: true,
+          plugins: {
+            legend: {
+              position: "top"
+            }
+          },
           scales: {
             x: {
               ticks: {
@@ -94,7 +235,75 @@
       });
     }
 
-    loadPredictions();
+    function renderForecastChart() {
+      const forecast = dashboardData.forecast;
+
+      const labels = forecast.map(row => row.date);
+      const predicted = forecast.map(row => row.predicted_energy_next_hour);
+
+      const ctx = document.getElementById("forecastChart").getContext("2d");
+
+      if (forecastChartInstance) {
+        forecastChartInstance.destroy();
+      }
+
+      forecastChartInstance = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: "Predicted theoretical energy",
+              data: predicted,
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: "top"
+            }
+          },
+          scales: {
+            x: {
+              ticks: {
+                maxTicksLimit: 8
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function activateButtons() {
+      const btn1d = document.getElementById("btn1d");
+      const btn7d = document.getElementById("btn7d");
+      const btn30d = document.getElementById("btn30d");
+
+      function setActiveButton(activeButton) {
+        [btn1d, btn7d, btn30d].forEach(btn => btn.classList.remove("active"));
+        activeButton.classList.add("active");
+      }
+
+      btn1d.addEventListener("click", () => {
+        setActiveButton(btn1d);
+        renderHistoricalChart(24);
+      });
+
+      btn7d.addEventListener("click", () => {
+        setActiveButton(btn7d);
+        renderHistoricalChart(24 * 7);
+      });
+
+      btn30d.addEventListener("click", () => {
+        setActiveButton(btn30d);
+        renderHistoricalChart(24 * 30);
+      });
+    }
+
+    loadDashboardData();
   </script>
 </body>
 </html>
