@@ -17,7 +17,7 @@ def run_step(script_name: str):
 
 
 def run_pipeline():
-steps = [
+    steps = [
     "fetch.py",
     "preprocess.py",
     "features.py",
