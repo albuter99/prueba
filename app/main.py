@@ -17,12 +17,13 @@ def run_step(script_name: str):
 
 
 def run_pipeline():
-    steps = [
+steps = [
     "fetch.py",
     "preprocess.py",
     "features.py",
     "train.py",
     "predict.py",
+    "frontend_data.py",
     "monitoring.py",
 ]
 
