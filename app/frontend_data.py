@@ -67,15 +67,15 @@ def generate_dashboard_data():
 
     # Historical chart data
     historical = []
-    for _, row in predictions_df.iterrows():
+for _, row in predictions_df.iterrows():
+    if pd.notna(row["predicted_energy_next_hour"]) and pd.notna(row["target_energy_next_hour"]):
         historical.append({
             "date": str(row["date"]),
             "predicted_energy_next_hour": float(row["predicted_energy_next_hour"]),
             "target_energy_next_hour": float(row["target_energy_next_hour"])
         })
 
-    # Forecast window for right-side chart
-    forecast = historical[:24]
+forecast = historical[:24]
 
     dashboard_data = {
         "latest_prediction": latest_prediction,
