@@ -80,6 +80,21 @@
       border-left: 5px solid #2563eb;
     }
 
+    .recommendation-box.success {
+      background: #ecfdf5;
+      border-left: 5px solid #16a34a;
+    }
+
+    .recommendation-box.warning {
+      background: #fffbeb;
+      border-left: 5px solid #d97706;
+    }
+
+    .recommendation-box.danger {
+      background: #fef2f2;
+      border-left: 5px solid #dc2626;
+    }
+
     .filter-buttons {
       display: flex;
       gap: 10px;
@@ -130,14 +145,14 @@
 
   <div class="top-grid">
     <div class="card">
-      <h2>Next-hour Theoretical Energy</h2>
+      <h2>Next-hour Theoretical Energy Forecast</h2>
       <div class="main-value" id="latestPrediction">Loading...</div>
       <div class="small-label" id="latestDate">Loading date...</div>
       <div class="small-label" id="latestTarget">Loading target...</div>
     </div>
 
     <div class="card">
-      <h2>Weather Summary & Recommendation</h2>
+      <h2>Forecast Summary & Operational Recommendation</h2>
       <p class="summary-text" id="weatherSummary">Loading weather summary...</p>
       <div class="recommendation-box">
         <strong>Recommendation:</strong>
@@ -149,7 +164,7 @@
 
   <div class="bottom-grid">
     <div class="card">
-      <h2>Historical Performance</h2>
+      <h2>Predicted vs Theoretical Comparison</h2>
       <div class="filter-buttons">
         <button id="btn1d" class="active">1D</button>
         <button id="btn7d">7D</button>
@@ -159,7 +174,7 @@
     </div>
 
     <div class="card">
-      <h2>Latest Forecast Window</h2>
+      <h2>Upcoming Forecast Window</h2>
       <canvas id="forecastChart"></canvas>
     </div>
   </div>
@@ -173,7 +188,7 @@
       const date = new Date(dateString);
 
       return new Intl.DateTimeFormat("en-GB", {
-        timeZone: "Europe/Copenhagen",
+        timeZone: "Europe/Berlin",
         day: "2-digit",
         month: "2-digit",
         year: "numeric",
@@ -186,7 +201,7 @@
       const date = new Date(dateString);
 
       return new Intl.DateTimeFormat("en-GB", {
-        timeZone: "Europe/Copenhagen",
+        timeZone: "Europe/Berlin",
         day: "2-digit",
         month: "2-digit",
         hour: "2-digit",
@@ -239,6 +254,10 @@
 
       document.getElementById("recommendationText").textContent =
         dashboardData.recommendation;
+
+      const recommendationBox = document.querySelector(".recommendation-box");
+      recommendationBox.classList.remove("success", "warning", "danger");
+      recommendationBox.classList.add(dashboardData.recommendation_level);
     }
 
     function renderHistoricalChart(hours) {
@@ -262,12 +281,16 @@
             {
               label: "Predicted theoretical energy",
               data: predicted,
+              borderColor: "#2563eb",
+              backgroundColor: "rgba(37, 99, 235, 0.15)",
               borderWidth: 2,
               tension: 0.25
             },
             {
               label: "Target theoretical energy",
               data: target,
+              borderColor: "#f97316",
+              backgroundColor: "rgba(249, 115, 22, 0.12)",
               borderWidth: 2,
               tension: 0.25
             }
@@ -314,6 +337,8 @@
             {
               label: "Predicted theoretical energy",
               data: predicted,
+              backgroundColor: "rgba(37, 99, 235, 0.65)",
+              borderColor: "#1d4ed8",
               borderWidth: 1
             }
           ]
