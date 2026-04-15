@@ -26,20 +26,20 @@
   {
     "date":"2026-04-15 02:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
+    "target_energy_next_hour":1.0,
     "predicted_energy_next_hour":0.96
   },
   {
     "date":"2026-04-15 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.2
+    "predicted_energy_next_hour":0.42
   },
   {
     "date":"2026-04-15 04:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.96
+    "predicted_energy_next_hour":0.97
   },
   {
     "date":"2026-04-15 05:00:00+00:00",
@@ -51,7 +51,7 @@
     "date":"2026-04-15 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.99
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-15 07:00:00+00:00",
@@ -68,68 +68,68 @@
   {
     "date":"2026-04-15 09:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.4881512712,
-    "predicted_energy_next_hour":0.7586285523
+    "target_energy_next_hour":0.2019176296,
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-15 10:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.4515915258,
-    "predicted_energy_next_hour":0.6182606339
+    "target_energy_next_hour":0.3774579313,
+    "predicted_energy_next_hour":0.4424522967
   },
   {
     "date":"2026-04-15 11:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0267636808,
-    "predicted_energy_next_hour":0.5719515993
+    "target_energy_next_hour":0.2550058798,
+    "predicted_energy_next_hour":0.4127109736
   },
   {
     "date":"2026-04-15 12:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.1308013623,
-    "predicted_energy_next_hour":0.2361312363
+    "target_energy_next_hour":0.000926284,
+    "predicted_energy_next_hour":0.446991065
   },
   {
     "date":"2026-04-15 13:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0178428882,
-    "predicted_energy_next_hour":0.4690693426
+    "target_energy_next_hour":0.0446831951,
+    "predicted_energy_next_hour":0.1499230382
   },
   {
     "date":"2026-04-15 14:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.2607799526
+    "target_energy_next_hour":0.8249939748,
+    "predicted_energy_next_hour":0.284316335
   },
   {
     "date":"2026-04-15 15:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9940805572
+    "predicted_energy_next_hour":0.6004575426
   },
   {
     "date":"2026-04-15 16:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9487128841
+    "predicted_energy_next_hour":0.8670623169
   },
   {
     "date":"2026-04-15 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.8895813952
   },
   {
     "date":"2026-04-15 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9841932093
+    "predicted_energy_next_hour":0.9077966185
   },
   {
     "date":"2026-04-15 19:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9929101698
+    "predicted_energy_next_hour":0.9951939505
   },
   {
     "date":"2026-04-15 20:00:00+00:00",
@@ -141,97 +141,97 @@
     "date":"2026-04-15 21:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.9878383452
   },
   {
     "date":"2026-04-15 22:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.946752382
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-15 23:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9972633107
+    "predicted_energy_next_hour":0.9221707997
   },
   {
     "date":"2026-04-16 00:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9962301569
+    "predicted_energy_next_hour":0.9987034379
   },
   {
     "date":"2026-04-16 01:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9973611098
+    "predicted_energy_next_hour":0.9433855952
   },
   {
     "date":"2026-04-16 02:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9973611098
+    "predicted_energy_next_hour":0.9987034379
   },
   {
     "date":"2026-04-16 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9973611098
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-16 04:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7796230157
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-16 05:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.84
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-16 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.92
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-16 07:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.59
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-16 08:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.24
+    "predicted_energy_next_hour":0.31
   },
   {
     "date":"2026-04-16 09:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.1
+    "predicted_energy_next_hour":0.27
   },
   {
     "date":"2026-04-16 10:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.81
+    "predicted_energy_next_hour":0.27
   },
   {
     "date":"2026-04-16 11:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.8
+    "predicted_energy_next_hour":0.73
   },
   {
     "date":"2026-04-16 12:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.86
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-16 13:00:00+00:00",
@@ -243,13 +243,13 @@
     "date":"2026-04-16 14:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.99
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-16 15:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.9969514542
   },
   {
     "date":"2026-04-16 16:00:00+00:00",
@@ -261,157 +261,157 @@
     "date":"2026-04-16 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.984688621
   },
   {
     "date":"2026-04-16 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.988646511
   },
   {
     "date":"2026-04-16 19:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.9381509581
   },
   {
     "date":"2026-04-16 20:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.8500624743,
-    "predicted_energy_next_hour":0.9975969753
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-16 21:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.3059765858,
-    "predicted_energy_next_hour":0.7973366483
+    "target_energy_next_hour":0.246098963,
+    "predicted_energy_next_hour":0.9651778649
   },
   {
     "date":"2026-04-16 22:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.3811622312,
-    "predicted_energy_next_hour":0.4237661005
+    "target_energy_next_hour":0.0416616296,
+    "predicted_energy_next_hour":0.4777386348
   },
   {
     "date":"2026-04-16 23:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.9428038302,
-    "predicted_energy_next_hour":0.5677540736
+    "target_energy_next_hour":0.0731387004,
+    "predicted_energy_next_hour":0.1074513948
   },
   {
     "date":"2026-04-17 00:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.3954465448,
-    "predicted_energy_next_hour":0.7359969034
+    "target_energy_next_hour":0.0726934976,
+    "predicted_energy_next_hour":0.1692884291
   },
   {
     "date":"2026-04-17 01:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.6271167522,
-    "predicted_energy_next_hour":0.5071611804
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.1831836329
   },
   {
     "date":"2026-04-17 02:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.6364839736
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.0400857573
   },
   {
     "date":"2026-04-17 03:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.785543831,
-    "predicted_energy_next_hour":0.8845418402
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.0333532095
   },
   {
     "date":"2026-04-17 04:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.2620317856,
-    "predicted_energy_next_hour":0.6517795825
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.0511569185
   },
   {
     "date":"2026-04-17 05:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0321027011,
-    "predicted_energy_next_hour":0.3758279916
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.0794207903
   },
   {
     "date":"2026-04-17 06:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0018489477,
-    "predicted_energy_next_hour":0.1267810182
+    "target_energy_next_hour":0.0000853345,
+    "predicted_energy_next_hour":0.1549995698
   },
   {
     "date":"2026-04-17 07:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.0335165313
+    "target_energy_next_hour":0.0000012457,
+    "predicted_energy_next_hour":0.1619958549
   },
   {
     "date":"2026-04-17 08:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.003601817,
-    "predicted_energy_next_hour":0.0320311081
+    "target_energy_next_hour":0.0018489477,
+    "predicted_energy_next_hour":0.1878956386
   },
   {
     "date":"2026-04-17 09:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0014768807,
-    "predicted_energy_next_hour":0.1306601971
+    "target_energy_next_hour":0.0144474226,
+    "predicted_energy_next_hour":0.1525959811
   },
   {
     "date":"2026-04-17 10:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0000445442,
-    "predicted_energy_next_hour":0.4498295787
+    "target_energy_next_hour":0.1766471423,
+    "predicted_energy_next_hour":0.3012647417
   },
   {
     "date":"2026-04-17 11:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0004149643,
-    "predicted_energy_next_hour":0.4924857823
+    "target_energy_next_hour":0.1490016607,
+    "predicted_energy_next_hour":0.5213132326
   },
   {
     "date":"2026-04-17 12:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.013717045,
-    "predicted_energy_next_hour":0.4643028324
+    "target_energy_next_hour":0.5992945919,
+    "predicted_energy_next_hour":0.5233197846
   },
   {
     "date":"2026-04-17 13:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0543737665,
-    "predicted_energy_next_hour":0.5683143756
+    "target_energy_next_hour":0.6509627126,
+    "predicted_energy_next_hour":0.6011176675
   },
   {
     "date":"2026-04-17 14:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.2660848216,
-    "predicted_energy_next_hour":0.5706463325
+    "target_energy_next_hour":0.5328092663,
+    "predicted_energy_next_hour":0.6174823019
   },
   {
     "date":"2026-04-17 15:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.5322346824
+    "target_energy_next_hour":0.937635965,
+    "predicted_energy_next_hour":0.6284781891
   },
   {
     "date":"2026-04-17 16:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9288916052
+    "predicted_energy_next_hour":0.7295104735
   },
   {
     "date":"2026-04-17 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9591419112
+    "predicted_energy_next_hour":0.9417895326
   },
   {
     "date":"2026-04-17 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9929791032
+    "predicted_energy_next_hour":0.9920573394
   },
   {
     "date":"2026-04-17 19:00:00+00:00",
@@ -423,31 +423,31 @@
     "date":"2026-04-17 20:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.97
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-17 21:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9972633107
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-17 22:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9796230157
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-17 23:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9796230157
+    "predicted_energy_next_hour":0.98
   },
   {
     "date":"2026-04-18 00:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9296230157
+    "predicted_energy_next_hour":0.92
   },
   {
     "date":"2026-04-18 01:00:00+00:00",
@@ -459,121 +459,121 @@
     "date":"2026-04-18 02:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9887885361
+    "predicted_energy_next_hour":0.9521189278
   },
   {
     "date":"2026-04-18 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.9112157048
   },
   {
     "date":"2026-04-18 04:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9844603642
+    "predicted_energy_next_hour":0.9554580743
   },
   {
     "date":"2026-04-18 05:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":1.0
+    "predicted_energy_next_hour":0.971035159
   },
   {
     "date":"2026-04-18 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.99
+    "predicted_energy_next_hour":0.9821240353
   },
   {
     "date":"2026-04-18 07:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.99
+    "predicted_energy_next_hour":0.9825500601
   },
   {
     "date":"2026-04-18 08:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9083649942
+    "predicted_energy_next_hour":0.9825500601
   },
   {
     "date":"2026-04-18 09:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.9254034636,
-    "predicted_energy_next_hour":0.8397198954
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 10:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.9097752775,
-    "predicted_energy_next_hour":0.6872072021
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 11:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.976515937,
-    "predicted_energy_next_hour":0.5928612324
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 12:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.655587237
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 13:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.810789344
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 14:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9625311778
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-18 15:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.8404821203
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.99
   },
   {
     "date":"2026-04-18 16:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.1968906626
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-18 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.878701128
+    "predicted_energy_next_hour":0.9965246584
   },
   {
     "date":"2026-04-18 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.42
+    "predicted_energy_next_hour":1.0
   },
   {
     "date":"2026-04-18 19:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.35
+    "predicted_energy_next_hour":0.59
   },
   {
     "date":"2026-04-18 20:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.53
+    "predicted_energy_next_hour":0.59
   },
   {
     "date":"2026-04-18 21:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.55
+    "predicted_energy_next_hour":0.54
   },
   {
     "date":"2026-04-18 22:00:00+00:00",
@@ -584,224 +584,224 @@
   {
     "date":"2026-04-18 23:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.85
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9
   },
   {
     "date":"2026-04-19 00:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.56
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.61
   },
   {
     "date":"2026-04-19 01:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.5
+    "predicted_energy_next_hour":0.57
   },
   {
     "date":"2026-04-19 02:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.42
+    "predicted_energy_next_hour":0.35
   },
   {
     "date":"2026-04-19 03:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.64
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.27
   },
   {
     "date":"2026-04-19 04:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.46
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.1
   },
   {
     "date":"2026-04-19 05:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.67
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.0
   },
   {
     "date":"2026-04-19 06:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.87
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.23
   },
   {
     "date":"2026-04-19 07:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.84
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.49
   },
   {
     "date":"2026-04-19 08:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
+    "target_energy_next_hour":0.0,
     "predicted_energy_next_hour":0.45
   },
   {
     "date":"2026-04-19 09:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.47
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.71
   },
   {
     "date":"2026-04-19 10:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.89
+    "predicted_energy_next_hour":0.43
   },
   {
     "date":"2026-04-19 11:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.89
+    "predicted_energy_next_hour":0.27
   },
   {
     "date":"2026-04-19 12:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.8353556977
+    "predicted_energy_next_hour":0.11
   },
   {
     "date":"2026-04-19 13:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7253556977
+    "predicted_energy_next_hour":0.2553556977
   },
   {
     "date":"2026-04-19 14:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.3553556977
+    "predicted_energy_next_hour":0.7453556977
   },
   {
     "date":"2026-04-19 15:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.2653556977
+    "predicted_energy_next_hour":0.8753556977
   },
   {
     "date":"2026-04-19 16:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.6253556977
+    "predicted_energy_next_hour":0.9453556977
   },
   {
     "date":"2026-04-19 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9453556977
+    "predicted_energy_next_hour":0.95
   },
   {
     "date":"2026-04-19 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9353556977
+    "predicted_energy_next_hour":0.95
   },
   {
     "date":"2026-04-19 19:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":0.8976971891,
+    "predicted_energy_next_hour":0.9478263485
+  },
+  {
+    "date":"2026-04-19 20:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":0.5992945919,
+    "predicted_energy_next_hour":0.7135123236
+  },
+  {
+    "date":"2026-04-19 21:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":0.6318873863,
+    "predicted_energy_next_hour":0.7324612984
+  },
+  {
+    "date":"2026-04-19 22:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.7459470442
+  },
+  {
+    "date":"2026-04-19 23:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.8125362811
+  },
+  {
+    "date":"2026-04-20 00:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9686937397
+  },
+  {
+    "date":"2026-04-20 01:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9803372611
+  },
+  {
+    "date":"2026-04-20 02:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9930375403
+  },
+  {
+    "date":"2026-04-20 03:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9975649272
+  },
+  {
+    "date":"2026-04-20 04:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9945163814
+  },
+  {
+    "date":"2026-04-20 05:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9945163814
+  },
+  {
+    "date":"2026-04-20 06:00:00+00:00",
+    "location":"Aalborg",
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9875649272
+  },
+  {
+    "date":"2026-04-20 07:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
     "predicted_energy_next_hour":0.9734145246
   },
   {
-    "date":"2026-04-19 20:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.61
-  },
-  {
-    "date":"2026-04-19 21:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.05
-  },
-  {
-    "date":"2026-04-19 22:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.03
-  },
-  {
-    "date":"2026-04-19 23:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.02
-  },
-  {
-    "date":"2026-04-20 00:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.02
-  },
-  {
-    "date":"2026-04-20 01:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.17
-  },
-  {
-    "date":"2026-04-20 02:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.16
-  },
-  {
-    "date":"2026-04-20 03:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.18
-  },
-  {
-    "date":"2026-04-20 04:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.16
-  },
-  {
-    "date":"2026-04-20 05:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.17
-  },
-  {
-    "date":"2026-04-20 06:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.28
-  },
-  {
-    "date":"2026-04-20 07:00:00+00:00",
-    "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.14
-  },
-  {
     "date":"2026-04-20 08:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.0
+    "target_energy_next_hour":1.0,
+    "predicted_energy_next_hour":0.9834145246
   },
   {
     "date":"2026-04-20 09:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.0
+    "predicted_energy_next_hour":0.8634145246
   },
   {
     "date":"2026-04-20 10:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.0
+    "predicted_energy_next_hour":0.45
   },
   {
     "date":"2026-04-20 11:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.0
+    "predicted_energy_next_hour":0.12
   },
   {
     "date":"2026-04-20 12:00:00+00:00",
@@ -837,174 +837,174 @@
     "date":"2026-04-20 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.44
+    "predicted_energy_next_hour":0.0
   },
   {
     "date":"2026-04-20 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0,
-    "predicted_energy_next_hour":0.56
+    "predicted_energy_next_hour":0.0
   },
   {
     "date":"2026-04-20 19:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.59
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.01
   },
   {
     "date":"2026-04-20 20:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.6
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.01
   },
   {
     "date":"2026-04-20 21:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.6534145246
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.01
   },
   {
     "date":"2026-04-20 22:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9637805035
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.01
   },
   {
     "date":"2026-04-20 23:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9637805035
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.02
   },
   {
     "date":"2026-04-21 00:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9469404487
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.03
   },
   {
     "date":"2026-04-21 01:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9892350259
+    "predicted_energy_next_hour":0.43
   },
   {
     "date":"2026-04-21 02:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9799889945
+    "predicted_energy_next_hour":0.69
   },
   {
     "date":"2026-04-21 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9034145246
+    "predicted_energy_next_hour":0.9130375403
   },
   {
     "date":"2026-04-21 04:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.53
+    "predicted_energy_next_hour":0.9430375403
   },
   {
     "date":"2026-04-21 05:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.68
+    "predicted_energy_next_hour":0.9330375403
   },
   {
     "date":"2026-04-21 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.76
+    "predicted_energy_next_hour":0.71
   },
   {
     "date":"2026-04-21 07:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.68
   },
   {
     "date":"2026-04-21 08:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9334145246
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.16
   },
   {
     "date":"2026-04-21 09:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9603659788
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.12
   },
   {
     "date":"2026-04-21 10:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9703659788
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.08
   },
   {
     "date":"2026-04-21 11:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9803659788
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.28
   },
   {
     "date":"2026-04-21 12:00:00+00:00",
     "location":"Aalborg",
-    "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9437805035
+    "target_energy_next_hour":0.0,
+    "predicted_energy_next_hour":0.28
   },
   {
     "date":"2026-04-21 13:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9103659788
+    "predicted_energy_next_hour":0.3
   },
   {
     "date":"2026-04-21 14:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9003659788
+    "predicted_energy_next_hour":0.47
   },
   {
     "date":"2026-04-21 15:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9188580416
+    "predicted_energy_next_hour":0.6934145246
   },
   {
     "date":"2026-04-21 16:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9818955819
+    "predicted_energy_next_hour":0.9822725662
   },
   {
     "date":"2026-04-21 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9818955819
+    "predicted_energy_next_hour":0.9784700518
   },
   {
     "date":"2026-04-21 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9575072155
+    "predicted_energy_next_hour":0.9529507325
   },
   {
     "date":"2026-04-21 19:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9265036544
+    "predicted_energy_next_hour":0.9173906883
   },
   {
     "date":"2026-04-21 20:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9837805035
+    "predicted_energy_next_hour":0.979633676
   },
   {
     "date":"2026-04-21 21:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":null,
-    "predicted_energy_next_hour":0.9938477604
+    "predicted_energy_next_hour":0.9749441277
   }
 ]
