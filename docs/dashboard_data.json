@@ -5,7 +5,7 @@
   "weather_summary": "Forecast conditions in Aalborg indicate a wind speed of 21.17 m/s, temperature of 7.70 °C, surface pressure of 1019.14 hPa, relative humidity of 90.00%, and precipitation of 0.00 mm. These forecast conditions are used to estimate next-hour theoretical wind energy output.",
   "recommendation": "Activate the turbines. Conditions are within the operating range and predicted theoretical energy is sufficient.",
   "recommendation_level": "success",
-  "last_updated": "2026-04-16T13:04:58.939721+02:00",
+  "last_updated": "2026-04-16T13:43:35.462852+02:00",
   "next_full_hour": "2026-04-16T14:00:00+02:00",
   "historical": [
     {
