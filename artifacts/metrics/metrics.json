@@ -1,0 +1,14 @@
+{
+  "training_dataset": "artifacts/features/weather_historical_features.csv",
+  "best_model": "RandomForest",
+  "results": {
+    "LinearRegression": {
+      "MAE": 0.348022,
+      "RMSE": 0.41072
+    },
+    "RandomForest": {
+      "MAE": 0.132947,
+      "RMSE": 0.245651
+    }
+  }
+}
