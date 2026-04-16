@@ -1,78 +1,78 @@
 [
   {
     "feature":"wind_speed_80m",
-    "importance":0.4596879544
+    "importance":0.4463926013
   },
   {
     "feature":"wind_speed_80m_cubed",
-    "importance":0.3698538837
-  },
-  {
-    "feature":"wind_speed_80m_lag_3",
-    "importance":0.0173712366
+    "importance":0.3775955458
   },
   {
     "feature":"wind_speed_80m_lag_24",
-    "importance":0.0153146538
+    "importance":0.0174586043
   },
   {
-    "feature":"wind_speed_80m_lag_1",
-    "importance":0.0142400717
-  },
-  {
-    "feature":"surface_pressure",
-    "importance":0.0139181372
-  },
-  {
-    "feature":"wind_speed_80m_lag_2",
-    "importance":0.0136221996
+    "feature":"wind_speed_80m_lag_3",
+    "importance":0.0169297336
   },
   {
     "feature":"wind_speed_80m_roll_6",
-    "importance":0.0135711397
+    "importance":0.0144943867
+  },
+  {
+    "feature":"wind_speed_80m_lag_2",
+    "importance":0.0138827349
+  },
+  {
+    "feature":"surface_pressure",
+    "importance":0.0137359326
+  },
+  {
+    "feature":"wind_speed_80m_lag_1",
+    "importance":0.0134205783
   },
   {
     "feature":"wind_direction_80m",
-    "importance":0.0122660169
+    "importance":0.012431315
   },
   {
     "feature":"wind_gusts_10m",
-    "importance":0.0121866317
+    "importance":0.011456538
   },
   {
     "feature":"wind_speed_80m_roll_3",
-    "importance":0.0095993002
-  },
-  {
-    "feature":"temperature_2m",
-    "importance":0.0093960352
+    "importance":0.0111986206
   },
   {
     "feature":"hour",
-    "importance":0.0093754736
+    "importance":0.0101079413
   },
   {
     "feature":"temp_wind_interaction",
-    "importance":0.009105589
+    "importance":0.0097390679
+  },
+  {
+    "feature":"temperature_2m",
+    "importance":0.0094653977
   },
   {
     "feature":"relative_humidity_2m",
-    "importance":0.0080633224
+    "importance":0.0089892527
   },
   {
     "feature":"cloud_cover",
-    "importance":0.0046096695
+    "importance":0.0054234293
   },
   {
     "feature":"day_of_week",
-    "importance":0.0036808529
+    "importance":0.0036984792
   },
   {
     "feature":"precipitation",
-    "importance":0.0034590257
+    "importance":0.0029818656
   },
   {
     "feature":"month",
-    "importance":0.0006788064
+    "importance":0.0005979751
   }
 ]
