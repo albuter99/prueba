@@ -1,78 +1,78 @@
 [
   {
     "feature":"wind_speed_80m",
-    "importance":0.4433213466
+    "importance":0.4596879544
   },
   {
     "feature":"wind_speed_80m_cubed",
-    "importance":0.3675187408
-  },
-  {
-    "feature":"wind_speed_80m_lag_24",
-    "importance":0.0194142838
-  },
-  {
-    "feature":"wind_gusts_10m",
-    "importance":0.0180988393
+    "importance":0.3698538837
   },
   {
     "feature":"wind_speed_80m_lag_3",
-    "importance":0.0166714939
+    "importance":0.0173712366
   },
   {
-    "feature":"wind_speed_80m_roll_6",
-    "importance":0.0152721711
-  },
-  {
-    "feature":"wind_direction_80m",
-    "importance":0.0146808936
+    "feature":"wind_speed_80m_lag_24",
+    "importance":0.0153146538
   },
   {
     "feature":"wind_speed_80m_lag_1",
-    "importance":0.0139647286
+    "importance":0.0142400717
   },
   {
     "feature":"surface_pressure",
-    "importance":0.0135081041
-  },
-  {
-    "feature":"wind_speed_80m_roll_3",
-    "importance":0.013170629
+    "importance":0.0139181372
   },
   {
     "feature":"wind_speed_80m_lag_2",
-    "importance":0.0128643716
+    "importance":0.0136221996
   },
   {
-    "feature":"temp_wind_interaction",
-    "importance":0.0105436684
+    "feature":"wind_speed_80m_roll_6",
+    "importance":0.0135711397
   },
   {
-    "feature":"hour",
-    "importance":0.0097344146
+    "feature":"wind_direction_80m",
+    "importance":0.0122660169
+  },
+  {
+    "feature":"wind_gusts_10m",
+    "importance":0.0121866317
+  },
+  {
+    "feature":"wind_speed_80m_roll_3",
+    "importance":0.0095993002
   },
   {
     "feature":"temperature_2m",
-    "importance":0.0092522811
+    "importance":0.0093960352
+  },
+  {
+    "feature":"hour",
+    "importance":0.0093754736
+  },
+  {
+    "feature":"temp_wind_interaction",
+    "importance":0.009105589
   },
   {
     "feature":"relative_humidity_2m",
-    "importance":0.0082951748
+    "importance":0.0080633224
   },
   {
     "feature":"cloud_cover",
-    "importance":0.0049846185
+    "importance":0.0046096695
   },
   {
     "feature":"day_of_week",
-    "importance":0.004489867
+    "importance":0.0036808529
   },
   {
     "feature":"precipitation",
-    "importance":0.0032396854
+    "importance":0.0034590257
   },
   {
     "feature":"month",
-    "importance":0.0009746877
+    "importance":0.0006788064
   }
 ]
