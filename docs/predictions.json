@@ -147,7 +147,7 @@
     "date":"2026-04-18 22:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7030204165
+    "predicted_energy_next_hour":0.705422806
   },
   {
     "date":"2026-04-18 23:00:00+00:00",
@@ -279,7 +279,7 @@
     "date":"2026-04-19 20:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.9514839993
+    "predicted_energy_next_hour":0.9526954632
   },
   {
     "date":"2026-04-19 21:00:00+00:00",
