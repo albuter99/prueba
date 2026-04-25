@@ -135,19 +135,19 @@
     "date":"2026-04-25 20:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.79
+    "predicted_energy_next_hour":0.77
   },
   {
     "date":"2026-04-25 21:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7
+    "predicted_energy_next_hour":0.66
   },
   {
     "date":"2026-04-25 22:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.81
+    "predicted_energy_next_hour":0.77
   },
   {
     "date":"2026-04-25 23:00:00+00:00",
@@ -195,7 +195,7 @@
     "date":"2026-04-26 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.1185790263,
-    "predicted_energy_next_hour":0.522614506
+    "predicted_energy_next_hour":0.523297369
   },
   {
     "date":"2026-04-26 07:00:00+00:00",
@@ -225,7 +225,7 @@
     "date":"2026-04-26 11:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.6951454203,
-    "predicted_energy_next_hour":0.3786756106
+    "predicted_energy_next_hour":0.4329729063
   },
   {
     "date":"2026-04-26 12:00:00+00:00",
@@ -309,37 +309,37 @@
     "date":"2026-04-27 01:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0964665277,
-    "predicted_energy_next_hour":0.5420515477
+    "predicted_energy_next_hour":0.5471563108
   },
   {
     "date":"2026-04-27 02:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0210082405,
-    "predicted_energy_next_hour":0.1853239699
+    "predicted_energy_next_hour":0.1851299479
   },
   {
     "date":"2026-04-27 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0154522799,
-    "predicted_energy_next_hour":0.1014274224
+    "predicted_energy_next_hour":0.1014452892
   },
   {
     "date":"2026-04-27 04:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.0420868349,
-    "predicted_energy_next_hour":0.055735623
+    "predicted_energy_next_hour":0.0565827958
   },
   {
     "date":"2026-04-27 05:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.2630424581,
-    "predicted_energy_next_hour":0.1593924374
+    "predicted_energy_next_hour":0.1563960644
   },
   {
     "date":"2026-04-27 06:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.1956771361,
-    "predicted_energy_next_hour":0.4904718976
+    "predicted_energy_next_hour":0.4837240785
   },
   {
     "date":"2026-04-27 07:00:00+00:00",
@@ -405,13 +405,13 @@
     "date":"2026-04-27 17:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.8479640793,
-    "predicted_energy_next_hour":0.7536911744
+    "predicted_energy_next_hour":0.7779369593
   },
   {
     "date":"2026-04-27 18:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.7329317272
+    "predicted_energy_next_hour":0.7355629213
   },
   {
     "date":"2026-04-27 19:00:00+00:00",
@@ -435,7 +435,7 @@
     "date":"2026-04-27 22:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.2202356688,
-    "predicted_energy_next_hour":0.7529905111
+    "predicted_energy_next_hour":0.7664068968
   },
   {
     "date":"2026-04-27 23:00:00+00:00",
@@ -447,13 +447,13 @@
     "date":"2026-04-28 00:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.5204628439,
-    "predicted_energy_next_hour":0.4535046226
+    "predicted_energy_next_hour":0.4539724359
   },
   {
     "date":"2026-04-28 01:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":0.4921410497,
-    "predicted_energy_next_hour":0.4489083352
+    "predicted_energy_next_hour":0.4710113143
   },
   {
     "date":"2026-04-28 02:00:00+00:00",
@@ -465,7 +465,7 @@
     "date":"2026-04-28 03:00:00+00:00",
     "location":"Aalborg",
     "target_energy_next_hour":1.0,
-    "predicted_energy_next_hour":0.5897152904
+    "predicted_energy_next_hour":0.5897908825
   },
   {
     "date":"2026-04-28 04:00:00+00:00",
