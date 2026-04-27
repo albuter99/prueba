@@ -3,12 +3,12 @@
   "best_model": "RandomForest",
   "results": {
     "LinearRegression": {
-      "MAE": 0.37431,
-      "RMSE": 0.433986
+      "MAE": 0.37273,
+      "RMSE": 0.436354
     },
     "RandomForest": {
-      "MAE": 0.155223,
-      "RMSE": 0.26902
+      "MAE": 0.161024,
+      "RMSE": 0.274315
     }
   }
 }
