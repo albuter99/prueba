@@ -26454,8 +26454,8 @@
     "precipitation":0.0,
     "surface_pressure":1019.4780883789,
     "cloud_cover":83.0,
-    "wind_speed_80m":21.0713634491,
-    "wind_direction_80m":235.5159759521,
+    "wind_speed_80m":23.1989059448,
+    "wind_direction_80m":239.5565032959,
     "wind_gusts_10m":24.1199989319,
     "location":"Aalborg"
   },
@@ -26466,8 +26466,8 @@
     "precipitation":0.0,
     "surface_pressure":1019.1762084961,
     "cloud_cover":100.0,
-    "wind_speed_80m":22.0834617615,
-    "wind_direction_80m":224.356338501,
+    "wind_speed_80m":23.107843399,
+    "wind_direction_80m":228.077545166,
     "wind_gusts_10m":22.6800003052,
     "location":"Aalborg"
   },
@@ -26478,8 +26478,8 @@
     "precipitation":0.0,
     "surface_pressure":1018.7750854492,
     "cloud_cover":100.0,
-    "wind_speed_80m":25.024394989,
-    "wind_direction_80m":215.5844573975,
+    "wind_speed_80m":25.0888843536,
+    "wind_direction_80m":216.469329834,
     "wind_gusts_10m":20.8800010681,
     "location":"Aalborg"
   },
@@ -26490,8 +26490,8 @@
     "precipitation":0.0,
     "surface_pressure":1018.6746826172,
     "cloud_cover":100.0,
-    "wind_speed_80m":26.5707015991,
-    "wind_direction_80m":210.1201934814,
+    "wind_speed_80m":25.2880706787,
+    "wind_direction_80m":209.0545043945,
     "wind_gusts_10m":24.8400001526,
     "location":"Aalborg"
   }
