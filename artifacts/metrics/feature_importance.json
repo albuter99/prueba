@@ -1,78 +1,78 @@
 [
   {
     "feature":"wind_speed_80m",
-    "importance":0.4139508504
+    "importance":0.4128702377
   },
   {
     "feature":"wind_speed_80m_cubed",
-    "importance":0.3510504612
+    "importance":0.3209851115
   },
   {
     "feature":"temp_wind_interaction",
-    "importance":0.053217908
+    "importance":0.089527649
   },
   {
     "feature":"wind_speed_80m_lag_1",
-    "importance":0.0231144653
-  },
-  {
-    "feature":"wind_speed_80m_lag_24",
-    "importance":0.0199431557
+    "importance":0.0197139891
   },
   {
     "feature":"surface_pressure",
-    "importance":0.0185767232
+    "importance":0.0179478328
   },
   {
-    "feature":"wind_direction_80m",
-    "importance":0.0146301544
-  },
-  {
-    "feature":"wind_gusts_10m",
-    "importance":0.0142441671
+    "feature":"wind_speed_80m_lag_24",
+    "importance":0.0177168138
   },
   {
     "feature":"relative_humidity_2m",
-    "importance":0.0130100858
+    "importance":0.0150867103
   },
   {
-    "feature":"wind_speed_80m_lag_3",
-    "importance":0.0110383383
+    "feature":"wind_direction_80m",
+    "importance":0.0145603919
   },
   {
-    "feature":"temperature_2m",
-    "importance":0.0106802813
-  },
-  {
-    "feature":"cloud_cover",
-    "importance":0.0106153202
+    "feature":"wind_gusts_10m",
+    "importance":0.0141068824
   },
   {
     "feature":"hour",
-    "importance":0.0104852813
+    "importance":0.0122533242
   },
   {
-    "feature":"wind_speed_80m_roll_3",
-    "importance":0.0086493887
+    "feature":"wind_speed_80m_lag_3",
+    "importance":0.0118542933
   },
   {
-    "feature":"wind_speed_80m_roll_6",
-    "importance":0.0085389111
+    "feature":"temperature_2m",
+    "importance":0.0106886181
   },
   {
-    "feature":"day_of_week",
-    "importance":0.0076405006
+    "feature":"cloud_cover",
+    "importance":0.0100052992
   },
   {
     "feature":"wind_speed_80m_lag_2",
-    "importance":0.0075642366
+    "importance":0.0079342724
   },
   {
-    "feature":"month",
-    "importance":0.0017520188
+    "feature":"wind_speed_80m_roll_6",
+    "importance":0.0075911927
+  },
+  {
+    "feature":"wind_speed_80m_roll_3",
+    "importance":0.0075156819
+  },
+  {
+    "feature":"day_of_week",
+    "importance":0.005682535
   },
   {
     "feature":"precipitation",
-    "importance":0.001297752
+    "importance":0.0023331376
+  },
+  {
+    "feature":"month",
+    "importance":0.0016260272
   }
 ]
